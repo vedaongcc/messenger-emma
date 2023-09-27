@@ -12,7 +12,7 @@ setuptools.setup(
         'gym',
         'numpy',
         'vgdl @ git+https://github.com/ahjwang/py-vgdl',
-        'pygame==1.9.6'
+        'pygame'
     ],
     extras_require={
         'models': ['torch>=1.3', 'transformers>=4.2']
